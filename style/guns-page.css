@@ -1,0 +1,19 @@
+.gun-image {
+    margin-top: 7px;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    transition: 500ms;
+}
+
+.card {
+    box-shadow: 0px 5px 15px 2px rgba(241, 159, 159, 0.01);
+    transition: 500ms;
+}
+
+.card:hover {
+    border: #fa4454 1px solid;
+    margin: 7px;
+    box-shadow: 0px 5px 15px 2px rgba(121, 54, 54, 0.08);
+    transition: 500ms;
+}

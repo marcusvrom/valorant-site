@@ -1,0 +1,182 @@
+@import url('/assets/fonts/ValorantFont.ttf');
+@font-face {
+    font-family: 'valorant';
+    src: url('/assets/fonts/ValorantFont.ttf') format('truetype');
+}
+
+#myVideo {
+    opacity: 80%;
+    position: absolute;
+    pointer-events: none;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: -120px;
+    z-index: -1!important;
+}
+
+textarea {
+    resize: none!important;
+}
+
+.form-control:focus, .btn:focus {
+    box-shadow: 0px 0px 2px 2px #fa4453a6!important;
+    border: none;
+}
+
+.btn-gototop {
+    background-color: #fa4454!important;
+    color: #fff!important;
+    border-radius: 30%!important;
+    right: 0!important;
+    position: fixed;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.05);
+    transition: 200ms!important;
+}
+
+.btn-gototop:hover{
+    font-size: 0.95rem;
+    opacity: 80%;
+    transition: 200ms;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fa4454;
+    transition: 200ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #dc3d4b;
+    transition: 200ms;
+}
+
+section {
+    width: 100%!important;
+    scroll-behavior: smooth;
+}
+
+#home {
+    height: 310px;
+    z-index: 10!important;
+}
+
+#home h1 {
+    text-shadow: 0px 1px 8px #915e5e;
+}
+
+#home p {
+    color: #f1f1f1;
+    text-shadow: 0px 0px 5px #683030;
+}
+
+#home a.btn-valorant {
+    box-shadow: 0px 5px 15px 2px rgba(121, 54, 54, 0.5);
+}
+
+.home-bg {
+    background-color: #fff;
+}
+
+.bg-valorant {
+    background-color: #fff;
+    box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.15);
+}
+
+nav {
+    height: 60px;
+}
+
+.title-nav {
+    font-family: 'valorant';
+    text-transform: uppercase;
+    color: #fa4454!important;
+    font-size: 1.4rem!important;
+    text-shadow: 0px 2px 1px #ff6e6eb2;
+    transition: 200ms;
+}
+
+.title-nav:hover {
+    opacity: 70%;
+    font-size: 1.38rem!important;
+    transition: 200ms;
+}
+
+.font-valorant {
+    font-family: 'valorant';
+    text-transform: uppercase;
+    color: #fa4454!important;
+}
+
+.btn-valorant {
+    border-radius: 1!important;
+    background-color: #fa4454!important;
+    font-size: 0.8rem!important;
+    color: #fff!important;
+    transition: 200ms!important;
+    text-transform: uppercase;
+}
+
+.btn-infovalorant{
+    border-radius: 1!important;
+    background-color: #fff!important;
+    font-size: 0.8rem!important;
+    color: #fa4454!important;
+    text-transform: uppercase;
+    transition: 200ms!important;
+}
+
+.btn-valorant:focus, .btn-infovalorant:focus, .btn-infovalorant:hover, .btn-valorant:hover {
+    transition: 200ms!important;
+    font-size: 0.75rem!important;
+}
+
+#info {
+    background-image: linear-gradient(to top, #fa4454, #dc3d4b);
+    z-index: 10;
+}
+
+.p-info {
+    color:#fff; 
+    font-size: 0.95rem;
+}
+
+.p-info-muted {
+    color:#fff; 
+    font-size: 0.7rem; 
+    opacity: 70%;
+}
+
+#getintouch {
+    z-index: 10;
+}
+
+#footer {
+    background-color: #fa4454;
+    width: 100%;
+    color: #fff;
+    z-index: 10;
+}
+
+.link-footer {
+    text-decoration: none;
+    transition: 200ms;
+    color: #fff;
+}
+
+.link-footer:hover {
+    color: #fff;
+    transition: 200ms;
+    opacity: 70%;
+}
